@@ -14,6 +14,7 @@ h2{
     text-align: center;
 }
 
+
 svg {
     /* this makes SVGs use the current color as their fill color
     so you can use one of the Bootstrap color utility classes to set
@@ -32,12 +33,11 @@ footer a:hover, footer a:focus {
 
 @media (min-width: 768px) {
     header {
-        background: linear-gradient(transparent 0%, black 100%), url(../img/header.jpg);
+        background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.8)), url(../img/header.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        
-        text-align: right;
-        height: 300px;  
+        text-align: left;
+        height: 325px;  
     }
 
     header h1 {
