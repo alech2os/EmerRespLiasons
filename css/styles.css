@@ -5,6 +5,10 @@ body {
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+header{
+    color: white;
+}
+
 h1, h2, h3, h4 {
     font-family: "Encode Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 200;
@@ -27,17 +31,28 @@ header h1 {
     font-size: 5em;
 }
 
+footer{
+    background-color: #b20101;
+}
+
 footer a:hover, footer a:focus {
     text-decoration: none;
 }
 
+.btn{
+    background-color: #b20101;
+    color: white;
+    margin: 10pt;
+}
+
 @media (min-width: 768px) {
     header {
-        background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.8)), url(../img/header.jpg);
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255, 255, 255, 1.0)), url(../img/header.jpg);
         background-position: center;
         background-repeat: no-repeat;
         text-align: left;
-        height: 325px;  
+        height: 425px; 
+        color: black;
     }
 
     header h1 {
