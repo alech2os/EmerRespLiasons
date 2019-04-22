@@ -45,6 +45,11 @@ footer a:hover, footer a:focus {
     margin: 10pt;
 }
 
+#tagline{
+    color:  #b20101;
+    font-size: 1.75em;
+}
+
 @media (min-width: 768px) {
     header {
         background: linear-gradient(rgba(255,255,255,.5), rgba(255, 255, 255, 1.0)), url(../img/header.jpg);
